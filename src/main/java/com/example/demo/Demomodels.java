@@ -4,10 +4,8 @@ package com.example.demo;
   import jakarta.persistence.GenerationType;
   import jakarta.persistence.Id;
 
-  import java.security.PublicKey;
-
 @Entity
-public class demomodels {
+public class Demomodels {
       @Id
 
       @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -41,7 +39,7 @@ public class demomodels {
         this.cpf = cpf;
     }
 
-    public demomodels(){
+    public Demomodels(){
 
       }
 }
